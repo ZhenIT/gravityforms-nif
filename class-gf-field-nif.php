@@ -1,8 +1,4 @@
 <?php
-/**
- * Plugin Name: NIF Field for Gravity Forms
- */
-
 if ( ! class_exists( 'GFForms' ) ) {
 	die();
 }
