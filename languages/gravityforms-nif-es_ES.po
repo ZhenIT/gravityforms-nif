@@ -1,0 +1,64 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: NIF Field for Gravity Forms\n"
+"POT-Creation-Date: 2022-11-03 01:56+0100\n"
+"PO-Revision-Date: 2022-11-03 01:58+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: class-gf-field-nif.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: class-gf-field-nif.php:60
+msgid "Accept DNIs"
+msgstr "Aceptar DNIs"
+
+#: class-gf-field-nif.php:67
+msgid "Accept NIEs"
+msgstr "Aceptar NIEs"
+
+#: class-gf-field-nif.php:74
+msgid "Accept CIFs"
+msgstr "Aceptar CIF"
+
+#: class-gf-field-nif.php:159
+msgid "NIF"
+msgstr "NIF"
+
+#: class-gf-field-nif.php:170
+msgid "Allows users to submit DNI, NIE or CIF."
+msgstr "Permite a los usuarios presentar DNI, NIE o CIF."
+
+#: class-gf-field-nif.php:268
+msgid "Identification document must be either:"
+msgstr "El documento de identificación debe ser alguno de:"
+
+#: class-gf-field-nif.php:270
+msgid "Identification document must be:"
+msgstr "El documento de identificación debe ser:"
+
+#: class-gf-field-nif.php:273
+msgid "Valid DNI"
+msgstr "DNI válido"
+
+#: class-gf-field-nif.php:276
+msgid "Valid NIE"
+msgstr "NIE válido"
+
+#: class-gf-field-nif.php:279
+msgid "Valid CIF"
+msgstr "CIF válido"
+
+#. Plugin Name of the plugin/theme
+msgid "NIF Field for Gravity Forms"
+msgstr "Campo NIF para Gravity Forms"
