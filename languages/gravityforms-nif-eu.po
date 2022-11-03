@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: NIF Field for Gravity Forms\n"
-"POT-Creation-Date: 2022-11-03 02:03+0100\n"
-"PO-Revision-Date: 2022-11-03 02:08+0100\n"
+"POT-Creation-Date: 2022-11-03 09:03+0100\n"
+"PO-Revision-Date: 2022-11-03 09:04+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: eu\n"
@@ -20,6 +20,10 @@ msgstr ""
 "_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: class-gf-field-nif.php:55
+msgid "Valid documents"
+msgstr "Onartutako agiriri motak"
 
 #: class-gf-field-nif.php:60
 msgid "Accept DNIs"
@@ -39,7 +43,7 @@ msgstr "IFZ"
 
 #: class-gf-field-nif.php:170
 msgid "Allows users to submit DNI, NIE or CIF."
-msgstr "Erabiltzaileei NAN, AIZ edo IFK aurkezteko aukera ematen die."
+msgstr "Erabiltzaileei NAN, AIZ edo IFK aurkezteko aukera ematen du."
 
 #: class-gf-field-nif.php:268
 msgid "Identification document must be either:"

@@ -52,7 +52,7 @@ class GF_Field_NIF extends GF_Field {
 		if ( $position == 25 ) {
 			?>
 			<li class="nif_setting field_setting">
-				<label for="nif_setting" class="section_label">Tipos válidos</label>
+				<label for="nif_setting" class="section_label"><?php _e("Valid documents", "gravityforms-nif"); ?></label>
 				<ul class="nif_setting_container">
 					<li>
 						<input type="checkbox" id="field_nif_dni" onclick="SetFieldProperty('nifFieldAcceptDNI', this.checked);" />
@@ -224,8 +224,8 @@ class GF_Field_NIF extends GF_Field {
 	/**
 	 * Validates Name field inputs.
 	 *
-	 * @since 1.9
-	 * @since 2.6.5 Updated to use set_required_error().
+	 * @since  1.9
+	 * @since  2.6.5 Updated to use set_required_error().
 	 * @access public
 	 *
 	 * @used-by GFFormDisplay::validate()
@@ -319,4 +319,3 @@ class GF_Field_NIF extends GF_Field {
 		return false;
 	}
 }
-

@@ -37,6 +37,11 @@ class GF_NIF_AddOn_Bootstrap
         if (!method_exists('GFForms', 'include_addon_framework')) {
             return;
         }
+
+        $plugin_rel_path = basename( dirname( __FILE__ ) ) . '/languages'; /* Relative to WP_PLUGIN_DIR */
+        load_plugin_textdomain( 'gravityforms-nif', false, $plugin_rel_path );
+
+        add_action('plugins_loaded', 'myplugin_init');
         require_once('class-gf-field-nif.php');
         GF_Fields::register(GF_Field_NIF::get_instance());
     }
