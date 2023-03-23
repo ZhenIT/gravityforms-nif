@@ -84,7 +84,7 @@ class GF_Field_NIF extends GF_Field {
 			fieldSettings.text += ', .nif_setting';
 			//binding to the load field settings event to initialize the checkbox
 			jQuery(document).on('gform_load_field_settings', function(event, field, form){
-				jQuery( '#field_nif_nif' ).prop( 'checked', Boolean( rgar( field, 'nifFieldAcceptDNI' ) ) );
+				jQuery( '#field_nif_dni' ).prop( 'checked', Boolean( rgar( field, 'nifFieldAcceptDNI' ) ) );
 				jQuery( '#field_nif_nie' ).prop( 'checked', Boolean( rgar( field, 'nifFieldAcceptNIE' ) ) );
 				jQuery( '#field_nif_cif' ).prop( 'checked', Boolean( rgar( field, 'nifFieldAcceptCIF' ) ) );
 			});

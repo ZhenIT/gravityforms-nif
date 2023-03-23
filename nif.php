@@ -4,7 +4,7 @@
  * Plugin Name: NIF Field for Gravity Forms
  * Plugin URI: http://github.com
  * Description: Allow adding a NIF field to Gravity Forms
- * Version: 0.1
+ * Version: 0.2
  * Author: Mikel
  * Author URI: http://zhenit.com
  * Text Domain: gravityforms-nif
@@ -26,7 +26,7 @@ You should have received a copy of the GNU General Public License
 along with this program; if not, write to the Free Software
 Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
 */
-define('GF_NIF_ADDON_VERSION', '0.1');
+define('GF_NIF_ADDON_VERSION', '0.2');
 
 add_action('gform_loaded', array('GF_NIF_AddOn_Bootstrap', 'load'), 5);
 
